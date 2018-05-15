@@ -4,11 +4,11 @@ Using data from Taarifa and the Tanzanian Ministry of Water, can you predict whi
 
 ## Notebook
 This notebook is structured in HOW MANY different sections:
-* Data Cleaning: where all the variables are inspected and the necessary steps are taken in order to remove missing values, correct errors, remove redundant features and apply the necessary transformations.
-* Feature Engineering: where some new features are created from the combination of other existing features.
-* Exploration: where the relation between some interesting variables status_group is analyzed.
-PCA and LDA: where some dimensionality reduction techniques are tested in an attempt to visualize the dataset in 2 and 3 dimensions.
-Baseline Models: where the following models are fitted to the data to get a baseline score: Random Forest, XGBoost, KNN, LDA and KNN after LDA.
-Hyperparameter tuning: where the parameters of Random Rorest and XGBoost are tuned by means of iterated random searches. Best Score Overall (0.8201) obtained by random forest after parameter tuning.
-Model Stacking: where Random Forest and XGBoost after parameter tuning are stacked by means of a random forest.
-Specialized Random Forests: where three different Random Rorests are trained to predict a particular status_group in a "one vs the rest" fashion. The three forests are then stacked together by means of a logistic regression.
+* **Data Cleaning:** where all the variables are inspected and the necessary steps are taken in order to remove missing values, correct errors, remove redundant features and apply the necessary transformations.
+* **Feature Engineering:** where some new features are created from the combination of other existing features.
+* **Exploration:** where the relation between some interesting variables status_group is analyzed.
+* **PCA and LDA:** where some dimensionality reduction techniques are tested in an attempt to visualize the dataset in 2 and 3 dimensions.
+* **Baseline Models:** where the following models are fitted to the data to get a baseline score: Random Forest, XGBoost, KNN, LDA and KNN after LDA.
+* **Hyperparameter tuning:** where the parameters of Random Rorest and XGBoost are tuned by means of iterated random searches. **Best Score Overall (0.8201)** obtained by random forest after parameter tuning.
+* **Model Stacking:** where Random Forest and XGBoost after parameter tuning are stacked by means of a random forest.
+* **Specialized Random Forests:** where three different Random Rorests are trained to predict a particular status_group in a "one vs the rest" fashion. The three forests are then stacked together by means of a logistic regression.
