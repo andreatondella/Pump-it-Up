@@ -3,7 +3,7 @@
 Using data from Taarifa and the Tanzanian Ministry of Water, can you predict which pumps are functional, which need some repairs, and which don't work at all? This is an intermediate-level practice competition. Predict one of these three classes based on a number of variables about what kind of pump is operating, when it was installed, and how it is managed. A smart understanding of which waterpoints will fail can improve maintenance operations and ensure that clean, potable water is available to communities across Tanzania.
 
 ## Notebook
-This notebook is structured in HOW MANY different sections:
+This notebook is structured in eight main sections:
 * **Data Cleaning:** where all the variables are inspected and the necessary steps are taken in order to remove missing values, correct errors, remove redundant features and apply the necessary transformations.
 * **Feature Engineering:** where some new features are created from the combination of other existing features.
 * **Exploration:** where the relation between some interesting variables status_group is analyzed.
